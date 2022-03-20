@@ -14,6 +14,12 @@
 
 A blockchain is a *distributed database* that is shared among the nodes of a computer network. As a database, a blockchain stores information electronically in digital format. Blockchains are best known for their crucial role in cryptocurrency systems, such as [Bitcoin](https://bitcoin.org/bitcoin.pdf), for maintaining a secure and decentralized record of transactions. The innovation with a blockchain is that it guarantees the *fidelity* and *security* of a record of data and generates trust **without** the need for a trusted third party.
 
+A blockchain is a public database that is updated and shared across many computers in a network.
+
+"Block" refers to data and state being stored in consecutive groups known as "blocks". If you send ETH to someone else, the transaction data needs to be added to a block to be successful.
+
+"Chain" refers to the fact that each block cryptographically references its parent. In other words, blocks get chained together. The data in a block cannot change without changing all subsequent blocks, which would require the consensus of the entire network.
+
 One key difference between a typical database and a blockchain is how the data is structured. A database usually structures its data into tables, whereas a blockchain, like its name implies, structures its data into chunks (blocks) that are strung together. Blocks have certain storage capacities and, when filled, are closed and linked to the previously filled block, forming a chain of data known as the blockchain. All new information that follows that freshly added block is compiled into a newly formed block that will then also be added to the chain once filled. This data structure inherently makes an *irreversible* time line of data when implemented in a decentralized nature. When a block is filled, it is set in stone and becomes a part of this time line. Each block in the chain is given an exact time stamp when it is added to the chain.
 
 **KEY TAKEAWAYS**
